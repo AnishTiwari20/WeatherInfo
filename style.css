@@ -108,3 +108,38 @@ body {
     margin-top: 10px;
     display: none;
 }
+
+/* Media Query for Tablets */
+@media screen and (max-width: 768px) {
+    .weather h1 {
+        font-size: 8vw; /* Adjusted font size for better responsiveness */
+    }
+    .weather h2 {
+        font-size: 6vw; /* Adjusted font size for better responsiveness */
+    }
+    .details {
+        margin-top: 20px; /* Adjusted margin for better spacing */
+    }
+    .col img {
+        width: 25px; /* Adjusted image size for better responsiveness */
+    }
+}
+
+/* Media Query for Phones */
+@media screen and (max-width: 480px) {
+    .weather-icon {
+        width: 70%; /* Adjusted width for better responsiveness */
+    }
+    .weather h1 {
+        font-size: 10vw; /* Adjusted font size for better responsiveness */
+    }
+    .weather h2 {
+        font-size: 8vw; /* Adjusted font size for better responsiveness */
+    }
+    .details {
+        margin-top: 10px; /* Adjusted margin for better spacing */
+    }
+    .col img {
+        width: 20px; /* Adjusted image size for better responsiveness */
+    }
+}
